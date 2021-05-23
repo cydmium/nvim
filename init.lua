@@ -14,5 +14,8 @@ require('lsp_signature-lua')
 require('treesitter-lua')
 require('gitsigns-lua')
 require('autopairs-lua')
+require('rainbow_parentheses-lua')
+require('lir-lua')
+require('devicons-lua')
 
 require('lsp')

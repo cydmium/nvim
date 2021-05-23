@@ -20,7 +20,16 @@ return require('packer').startup(function()
   use 'sainnhe/gruvbox-material' -- colorscheme 2.0
   use "morhetz/gruvbox"
   use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"} -- smart syntax highlighting
-  use 'windwp/nvim-autopairs'
+
+  -- Paren, brackets, etc
+  use 'windwp/nvim-autopairs' -- automatic (), [], "", etc.
+  use 'p00f/nvim-ts-rainbow' -- rainbow highlights for ()
+
+  use {'tamago324/lir.nvim',
+    requires = {{'nvim-lua/plenary.nvim'}}
+  } -- File Browser
+  use 'kyazdani42/nvim-web-devicons' -- devicons
+
   use 'tpope/vim-fugitive' -- git integration
   use 'lewis6991/gitsigns.nvim' -- git signs
   use 'terrortylor/nvim-comment' -- gcc to comment
