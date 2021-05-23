@@ -4,7 +4,6 @@ require('colorscheme')
 require('globals')
 
 require('plugins')
-
 require('comment-lua')
 require('telescope-lua')
 require('completion-lua')
