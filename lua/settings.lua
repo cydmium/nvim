@@ -6,6 +6,7 @@ utils.opt('w', 'relativenumber', true)
 utils.opt('w', 'cursorline', true) -- highlight the current line
 utils.opt('o', 'incsearch', true) -- search as you type
 utils.opt('o', 'hlsearch', true) -- highlight matching items
+utils.opt('o', 'showmatch', true) -- show matching (), [], etc.
 -- ignore case unless a capital letter is provided
 utils.opt('o', 'ignorecase', true)
 utils.opt('o', 'smartcase', true)
