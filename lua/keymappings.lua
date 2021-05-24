@@ -22,3 +22,6 @@ utils.map('n', '<leader>y', '"+y')
 utils.map('v', '<leader>y', '"+y')
 utils.map('n', '<leader>p', '"+p')
 utils.map('n', '<leader>P', '"+P')
+
+-- Go to previous buffer
+utils.map('n', 'gb', '<c-^>')
